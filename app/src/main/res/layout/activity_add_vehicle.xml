@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/purple_500"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddVehicle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/carrID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Car ID"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/carrName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Car Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/carrNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Car number"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/carrPerday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Km Per day"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/carrMilage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Milage"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/carrLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Location"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/carrContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Contact"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/carrDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Description"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/carradd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:text="Save Vehicle Details"
+            app:backgroundTint="@color/purple_700"
+            app:cornerRadius="15dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

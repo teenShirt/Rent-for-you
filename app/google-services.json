@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "353638652461",
+    "project_id": "rent-for-me-6e0fe",
+    "storage_bucket": "rent-for-me-6e0fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353638652461:android:b78da8f94e08eb8a8df6a4",
+        "android_client_info": {
+          "package_name": "com.example.rentforme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353638652461-7n6su8dd7f9qfvgu1nuc72esj9d5co01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW_-ej9vOkgOSN6phZK7EUGZ7vznQMbjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353638652461-7n6su8dd7f9qfvgu1nuc72esj9d5co01.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
